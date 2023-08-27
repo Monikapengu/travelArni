@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly Arni</title>
+    <link rel="stylesheet" href="style.css">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!---Font Awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+   <!--googlefonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>A</span>Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!---Navbar end---->
+
+
+<!---Home Section Start--->
+<div class="home">
+    <div class="content">
+        <h5>Welcome To World</h5>
+        <h1>Visit <span class="changecontent"></span></h1>
+        <p>Traveling is one of the most enriching experiences that life can offer.</p>
+        <a href="#book">Book Place</a>
+    </div>
+</div>
+
+<!---Home Section End-->
+
+<!----Section Book strart-->
+<section class="book" id="book">
+    <div class="container">
+
+        <div class="main-text">
+            <h1><span>B</span>ook</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="assets/css/img/b.jpeg" alt="">
+                </div>
+            </div>
+
+         <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+
+                <input type="text" class="form-control" placeholder="Where To"required><br>
+                <input type="text" class="form-control" placeholder="How Many"required><br>
+                <input type="date" class="form-control" placeholder="Arrivals"required><br>
+                <input type="date" class="form-control" placeholder="Leaving"required><br>
+                <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+                <input type="submit" value="Book Now" class="submit"required>
+            </form>
+         </div>
+        </div>
+    </div>  
+
+</section>
+<!--Section Book end--->
+
+
+<!--Section Packages start-->
+<div class="packages" id="packages">
+    <div class="container">
+
+        <div class="main-text">
+            <h1><span>P</span>ackages</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/london.jpeg" alt="">
+                <div class="card-body">
+                    <h3>United Kingdom</h3>
+                    <p>London City Center</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h6>Price:<strong>$1.920</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/france.jpeg" alt="">
+                <div class="card-body">
+                    <h3>France</h3>
+                    <p>Paris for New Year</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h6>Price:<strong>$1.000</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/italy1.jpeg" alt="">
+                <div class="card-body">
+                    <h3>Italy</h3>
+                    <p>Ultra all included</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star "></i>
+                    </div>
+                    <h6>Price:<strong>500$</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/turkey.jpeg" alt="">
+                <div class="card-body">
+                    <h3>Turkey</h3>
+                    <p>Package Ultra all included</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                    </div>
+                    <h6>Price:<strong>1.400$</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/spain.jpeg" alt="">
+                <div class="card-body">
+                    <h3>Spain</h3>
+                    <p>Ultra all included</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                    </div>
+                    <h6>Price:<strong>1.000$</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/a.jpeg" alt="">
+                <div class="card-body">
+                    <h3>Albania</h3>
+                    <p>Ultra all included</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star "></i>
+                    </div>
+                    <h6>Price:<strong>500$</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/dubai.jpeg" alt="">
+                <div class="card-body">
+                    <h3>Dubai</h3>
+                    <p>Ultra all included</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h6>Price:<strong>3.000$</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/Mexico.jpeg" alt="">
+                <div class="card-body">
+                    <h3>Mexico</h3>
+                    <p>Ultra all included</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                    </div>
+                    <h6>Price:<strong>1.100$</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+         <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+                <img src="assets/css/img/Germany.jpeg" alt="">
+                <div class="card-body">
+                    <h3>Germany</h3>
+                    <p>Ultra all included</p>
+                    <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star "></i>
+                    </div>
+                    <h6>Price:<strong>1.000$</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+            </div>
+         </div>
+        </div>
+    </div>
+</div>
+
+<!--End of Packages-->
+
+
+<!--Section Services Start-->
+<section class="services" id="services">
+    <div class="container">
+        
+        <div class="main-txt">
+            <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body">
+                        <h3>Affordable Hotel</h3>
+                        <p>Read honest reviews and find the best deal for your vacation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <div class="card-body">
+                        <h3>Food $ Drinks</h3>
+                        <p>Read honest reviews and find the best deal for your vacation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="card-body">
+                        <h3>Safty Guide</h3>
+                        <p>Read honest reviews and find the best deal for your vacation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-globe-asia"></i>
+                    <div class="card-body">
+                        <h3>Around the World</h3>
+                        <p>Read honest reviews and find the best deal for your vacation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-plane"></i>
+                    <div class="card-body">
+                        <h3>Fastest Travel</h3>
+                        <p>Read honest reviews and find the best deal for your vacation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-hiking"></i>
+                    <div class="card-body">
+                        <h3>Adventur</h3>
+                        <p>Read honest reviews and find the best deal for your vacation.</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+<!--End of service-->
+
+<!--Section Gallary start-->
+<section class="gallary" id="gallary">
+   <div class="container">
+
+        <div class="main-txt">
+            <h1><span>G</span>allery</h1>
+        </div>
+
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="assets/css/img/img1.jpeg" alt="" height="230px">
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="assets/css/img/img2.jpeg" alt="" height="230px">
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="assets/css/img/img3.jpeg" alt="" height="230px">
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="assets/css/img/img4.jpeg" alt="" height="230px">
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="assets/css/img/img5.jpeg" alt="" height="230px">
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="assets/css/img/img6.jpeg" alt="" height="230px">
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</section>
+
+<!---End-->
+
+<!---About start-->
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="main-txt">
+            <h1>About <span>Us</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="assets/css/img/ab.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <h2>How Travel Agency Work</h2>
+                <p>We have taken care that all our staff was prepared with the most professional training, offered by one of the vanguard academies of education in the field of aviation, but we are also committed that every service provided by us has no competition. The most valuable material assets of our company: the AIRBUS aircraft fleet, are a guarantee of success, but also the maximum dedication.</p>
+                <button id="about-btn">Read More...</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!---End-->
+
+
+
+<!--Footer Start-->
+
+<footer id="footer">
+    <h1><span>T</span>ravel</h1>
+    <p>We offer a number of discount and savings opportunities to our customers. When searching for airfares, discount and savings claims are based on multiple factors, including searching over 500 airlines to find the lowest available fare. 
+        Coupon codes are valid for savings for qualified bookings off our standard service fees. Seniors and youth may find specific discounted fares offered by certain airlines subject to airline qualifications.
+        Military, bereavement and visually impaired travelers are eligible for discounts off our post-booking service fees as outlined in our compassion exception policy.</p>
+        
+    <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+
+    <div class="credit">
+        <p>Designed By <a href="#">Monika Pengu</a></p>
+    </div>
+</footer>
+
+<!--end of footer-->
+    
+</body>
+</html>
